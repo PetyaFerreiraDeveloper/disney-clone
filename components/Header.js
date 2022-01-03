@@ -5,7 +5,7 @@ import {
   PlusIcon,
   StarIcon,
 } from "@heroicons/react/solid";
-import { signIn, signOut, useSession } from "next-auth/react";
+import { getSession, signIn, signOut, useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 
 function Header() {
@@ -13,7 +13,7 @@ function Header() {
   const router = useRouter();
 
   return (
-    <header className="sticky bg-[#040714] top-0 flex h-[72px] items-center px-10 md:px-6 lg:px-10">
+    <header className="sticky bg-[#040714] top-0 flex h-[72px] items-center px-10 md:px-6 lg:px-10 z-10">
       <Image
         className="cursor-pointer"
         src="/images/logo.svg"
