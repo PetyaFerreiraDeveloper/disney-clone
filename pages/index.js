@@ -22,7 +22,7 @@ export default function Home({popularMovies, popularShows, top_ratedMovies, top_
       </Head> 
 
       <Header />
-      {session ? (<Hero /> ): (
+      {session ? (<Hero /> ) : (
         <main className="main">
           <Slider />
           <Brands />
