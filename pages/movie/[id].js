@@ -15,7 +15,7 @@ function Movie({ result }) {
   const [showPlayer, setShowPlayer] = useState(false);
   const router = useRouter();
 
-  // this part is used when i am logging out to show tha home page
+  // this part is used when i am logging out to show the home page
   useEffect(() => {
     if (session) {
       router.push('/')
