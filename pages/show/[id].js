@@ -10,7 +10,7 @@ import Image from "next/image";
 import ReactPlayer from "react-player";
 
 function Show({ result }) {
-    console.log(result);
+    //console.log(result);
   const BASE_URL = "https://image.tmdb.org/t/p/original/";
   const { session } = useSession();
   const router = useRouter();

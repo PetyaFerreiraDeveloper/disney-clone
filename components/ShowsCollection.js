@@ -1,7 +1,7 @@
 import ShowThumbnail from "./ShowThumbnail";
 
 function ShowsCollection({ results, title }) {
-  console.log(results);
+  //console.log(results);
   return (
     <section className="relative flex flex-col space-y-2 my-10 px-8 max-w-[1400px] mx-auto">
       <h2 className="font-semibold">{title}</h2>
